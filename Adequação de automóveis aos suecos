@@ -1,0 +1,33 @@
+Objetivo: Avaliar se o ajuste dos bancos de um carro desenvolvido no Brasil é adequado à altura média da população sueca.
+
+Dados: Amostra de alturas da população sueca (altura_suecia.xlsx)
+
+Análises realizadas no Excel:
+
+Estimativa pontual:
+
+Média da coluna de alturas (=MÉDIA(intervalo))
+
+Intervalos de confiança:
+
+Calcular desvio padrão da amostra (=DESVPAD(intervalo))
+
+Determinar tamanho da amostra (n)
+
+IC 90%: Média ± t crítico × (desvio / √n)
+
+IC 99%: Média ± t crítico × (desvio / √n)
+
+Obs.: IC 99% é maior que IC 90% porque maior confiança exige margem de erro maior.
+
+Comparação com Brasil:
+
+Altura média brasileira: 1,73 m
+
+Verificar se o intervalo de confiança da Suécia inclui 1,73 m
+
+Conclusão sobre necessidade de ajuste do banco
+
+Visualização (opcional):
+
+Gráfico de barras da altura média com intervalos de confiança.
